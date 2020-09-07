@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(250deg, #FFFDE7 5.65%, rgba(255, 255, 255, 0) 100%), #D4EAF6;
+}
+
+.content {
+    position: absolute;
+    width: 75%;
+    left: 296px;
+    top: 160px;
+}
+
+.content p {
+    width: 400px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 53px;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Space Mono', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+}
+
+.links a {
+    color: rgba(0,0,0, 0.4);
+    text-transform: lowercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: rgba(0,0,0, 1);
+}
+
+.bookshelf {
+    position: absolute;
+    margin-top: 24px;
+    margin-left: auto;
+}
+
+.book {
+    float: left;
+    width: 400px;
+    height: 372px; 
+    margin-right: 40px;
+    margin-bottom: 56px;
+}
+
+.book-title {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.author-title {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 14px;
+    opacity: 70%;
+}
